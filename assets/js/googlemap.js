@@ -163,7 +163,7 @@ function initMap(){
   }
 ];
        var map,map2;
-       var uluru = {lat: 38.907815, lng:  -77.047535};    
+       var uluru = {lat: -23.523504, lng:  -46.622348};    
     var myOptions = {
         zoom: 9,
         center: uluru,

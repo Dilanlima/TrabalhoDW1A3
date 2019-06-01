@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-/*NAVIS Template*/
 /* == CONTENT == */
-/*--- 01. GENERAL SETTINGS ---*/
-/*--- 02. PRELOADER ---*/
+/*--- 01. CSS GERAL ---*/
+/*--- 02. LOADING DE ESPERA ---*/
 /*--- 03. NAVIGATION -----*/
 /*--- 04. COPYRIGHT ---*/
-/*--- 05. HOME HEADER ---*/
-/*--- 06. ABOUT SECTION ---*/
-/*--- 07. PORTFOLIO SECTION ---*/
-/*--- 09. RESUME SECTION ---*/
-/*--- 10. CONTACT SECTION ---*/
+/*--- 05. CABEÇALHO ---*/
+/*--- 06. SESSÃO SOBRE ---*/
+/*--- 07. SESSÃO GALERIA ---*/
+/*--- 09. SESSÃO APP MOBILE ---*/
+/*--- 10. SESSÃO CONTATO ---*/
 /*--- 11. MEDIA QUERIES FOR RESPONSIVE DESIGN ---*/
 /*--------------------------------*/
-/*--- 01. GENERAL SETTINGS ---*/
+/*--- 01. CSS GERAL ---*/
 ::-webkit-scrollbar {
   width: 6px;
   background-color: #fff;
@@ -88,7 +87,7 @@ body {
   color: #fff;
   padding-bottom: 4px;
   text-transform: uppercase;
-  background-color: #b28647;
+  background-color: #a0c2e1;
   border-radius: 100px;
 }
 #header {
@@ -200,7 +199,7 @@ body {
   font-weight: 400;
   color: #fff;
   text-transform: uppercase;
-  background-color: #b28647;
+  background-color: #a0c2e1;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 50px;
@@ -211,7 +210,7 @@ body {
   -webkit-transition: all ease-in-out 0.2s;
 }
 .button:hover {
-  background-color: #9e8550;
+  background-color: #50759e;
   color: #fff;
   text-decoration: none;
 }
@@ -223,7 +222,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-/*--- 02. PRELOADER ---*/
+/*--- 02. LOADING DE ESPERA ---*/
 #preloader {
   top: 0;
   z-index: 100;
@@ -284,7 +283,7 @@ ul {
   z-index: 9;
 }
 .mobile-nav i {
-  color: #b28647;
+  color: #a0c2e1;
   font-size: 48px;
   margin-top: 15px;
   margin-left: 30px;
@@ -296,7 +295,7 @@ ul {
   margin-left: 30px;
   text-transform: uppercase;
   font-size: 10px;
-  color: #b28647;
+  color: #a0c2e1;
   position: relative;
 }
 .bg-nav {
@@ -305,7 +304,7 @@ ul {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .nav-menu {
-  background-color: #f7f7f7;
+  background-color: #e7e6e6;
   overflow: hidden;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -370,7 +369,7 @@ ul {
           transition-duration: .3s;
 }
 .menu-text li a:hover {
-  background: #b28647;
+  background: #a0c2e1;
   border-radius: 100px;
   color: #fff;
 }
@@ -381,7 +380,7 @@ ul {
   display: inline-flex;
 }
 .social-links li a {
-  color: #b28647;
+  color: #a0c2e1;
   font-size: 14px;
 }
 /*--- 04. COPYRIGHT ---*/
@@ -418,12 +417,12 @@ ul {
 .copyright-contact {
   display: none;
 }
-/*--- 04. HOME HEADER ---*/
+/*--- 04. CABEÇALHO ---*/
 .bg-title {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: url(../../../slider/assets/images/home-img/1.jpg) center;
+  background: url(../images/home-img/1.jpg) center;
   background-size: cover;
 }
 #home {
@@ -461,11 +460,11 @@ ul {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-  border-bottom: 4px solid #b28647;
+  border-bottom: 4px solid #a0c2e1;
   padding-bottom: 12px;
-  color: #b28647;
+  color: #a0c2e1;
 }
-/*--- 06. ABOUT SECTION ---*/
+/*--- 06. SESSÃO SOBRE ---*/
 #about.panel {
   width: 75%;
   height: auto;
@@ -482,7 +481,7 @@ img.mobile-profile-img {
   display: none;
 }
 .about.title-page:before {
-  content: "About";
+  content: "Sobre";
   top: -52px;
   position: absolute;
   color: rgba(0, 0, 0, 0.04);
@@ -554,7 +553,7 @@ img.mobile-profile-img {
   position: absolute;
 }
 .profile-img {
-  background: url(../../../slider/assets/images/about/profile.jpg) center;
+  background: url(../images/about/profile.png) center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -597,7 +596,7 @@ img.mobile-profile-img {
 .skillbar-bar {
   height: 6px;
   width: 0px;
-  background: #b28647;
+  background: #a0c2e1;
   float: left;
 }
 .containers {
@@ -628,7 +627,7 @@ img.mobile-profile-img {
 }
 .card {
   border-radius: 0;
-  border: 1px solid #b28647;
+  border: 1px solid #a0c2e1;
 }
 .card-img-top {
   width: 100%;
@@ -637,13 +636,13 @@ img.mobile-profile-img {
 }
 .card > i {
   text-align: center;
-  color: #b28647;
+  color: #a0c2e1;
   padding-top: 12px;
   padding-bottom: 12px;
   font-size: 96px;
-  border-bottom: 1px solid #b28647;
+  border-bottom: 1px solid #a0c2e1;
 }
-/*--- 07. PORTFOLIO SECTION ---*/
+/*--- 07. SESSÃO GALERIA ---*/
 #portfolio p {
   margin-top: 96px;
 }
@@ -656,7 +655,7 @@ img.mobile-profile-img {
   padding-bottom: 96px;
 }
 .portfolio.title-page:before {
-  content: "Portfolio";
+  content: "Galeria";
   top: -52px;
   position: absolute;
   color: rgba(0, 0, 0, 0.04);
@@ -691,12 +690,12 @@ img.mobile-profile-img {
           transition-duration: .3s;
 }
 #filter a:hover {
-  background-color: #b28647;
+  background-color: #a0c2e1;
   border-radius: 100px;
   color: #fff;
 }
 .active-filter {
-  background-color: #b28647;
+  background-color: #a0c2e1;
   border-radius: 100px;
   color: #fff!important;
 }
@@ -718,8 +717,8 @@ figure.effect-sadie figcaption::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(top, rgba(72, 76, 97, 0) 0%, #b28647 75%);
-  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, #b28647 75%);
+  background: -webkit-linear-gradient(top, rgba(72, 76, 97, 0) 0%, #a0c2e1 75%);
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, #a0c2e1 75%);
   content: '';
   opacity: 0;
   -webkit-transform: translate3d(0, 50%, 0);
@@ -783,7 +782,7 @@ figure.effect-sadie:hover i {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-/*--- 09. RESUME SECTION ---*/
+/*--- 09. SESSÃO APP MOBILE ---*/
 .resume-content {
   right: 15px;
   left: 21%;
@@ -803,7 +802,7 @@ figure.effect-sadie:hover i {
   font-size: 14px;
 }
 .resume.title-page:before {
-  content: "Resume";
+  content: "APP Mobile";
   top: -52px;
   position: absolute;
   color: rgba(0, 0, 0, 0.04);
@@ -814,7 +813,7 @@ figure.effect-sadie:hover i {
   text-transform: capitalize;
 }
 .resume-inner {
-  border-left: 1px solid #b28647;
+  border-left: 1px solid #a0c2e1;
   padding-left: 30px;
 }
 .resume-row {
@@ -830,7 +829,7 @@ figure.effect-sadie:hover i {
   left: 0;
   width: 13px;
   height: 13px;
-  background: #b28647;
+  background: #a0c2e1;
   left: -37px;
   top: 0;
   border-radius: 50%;
@@ -843,11 +842,11 @@ figure.effect-sadie:hover i {
   font-weight: 400;
   font-size: 14px;
   display: inline-block;
-  background: #b28647;
+  background: #a0c2e1;
   padding: 1px 15px;
   border-radius: 100px;
 }
-/*--- 10. CONTACT SECTION ---*/
+/*--- 10. SESSÃO CONTATO ---*/
 #contact.panel {
   width: 70%;
   height: 100%;
@@ -861,7 +860,7 @@ figure.effect-sadie:hover i {
   padding-bottom: 96px;
 }
 .contact.title-page:before {
-  content: "Contact";
+  content: "Cadastre-se";
   top: -52px;
   position: absolute;
   color: rgba(0, 0, 0, 0.04);
@@ -918,14 +917,14 @@ figure.effect-sadie:hover i {
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 .form-control:focus {
-  border-color: #b28647;
+  border-color: #a0c2e1;
   box-shadow: none;
 }
 textarea.form-control {
   height: auto;
 }
 .text-success {
-  color: #b28647!important;
+  color: #a0c2e1!important;
   margin-top: 12px;
   font-size: 20px;
 }
@@ -966,7 +965,7 @@ textarea.form-control {
     display: block;
     width: 250px;
     margin: 0 auto;
-    border: 3px solid #b28647;
+    border: 3px solid #a0c2e1;
     padding: 4px;
   }
   .about-content {
@@ -1030,7 +1029,7 @@ textarea.form-control {
     padding: 1px 15px;
     margin-top: 96px;
     display: inline-block;
-    background-color: #b28647;
+    background-color: #a0c2e1;
     color: #fff;
     font-size: 12px;
     border-radius: 100px;
